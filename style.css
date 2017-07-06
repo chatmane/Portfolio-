@@ -65,3 +65,17 @@ h3{
     border: 10px solid darkred;
     min-height: 100vh;
 }
+.about-table{
+    border:2px solid black;
+    text-align: left;
+    font-size: 20px
+}
+.about-table{
+    vertical-align: top;
+}
+td,th{
+    display: table-cell
+}
+.about-page{
+    align-content: right;
+}
