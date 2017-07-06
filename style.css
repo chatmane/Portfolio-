@@ -53,3 +53,15 @@ h1{
 h3{
     color: black
 }
+.index-page{
+    border: 10px solid darkred;
+    min-height: 100vh;
+}
+.projects-page{
+    border: 10px solid darkred;
+    min-height: 100vh;
+}
+.contact-page{
+    border: 10px solid darkred;
+    min-height: 100vh;
+}
