@@ -76,6 +76,15 @@ h3{
 td,th{
     display: table-cell
 }
-.about-page{
-    align-content: right;
+.about-table {
+    border: 2px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 1em 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 16px;
+    line-height: 2.5em;
 }
