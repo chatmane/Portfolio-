@@ -41,7 +41,7 @@ h1{
 }
 .about-page{ 
     border: 10px solid darkred;
-    min-height: 100vh;
+    min-height: 150vh;
 }
 .title-name{
     font-size:50px
