@@ -41,7 +41,7 @@ h1{
 }
 .about-page{ 
     border: 10px solid darkred;
-    min-height: 150vh;
+    min-height: 175vh;
 }
 .title-name{
     font-size:50px
@@ -77,9 +77,9 @@ td,th{
     display: table-cell
 }
 .about-table {
-    border: 2px solid #a2a9b1;
+    border: 2px solid black;
     border-spacing: 3px;
-    background-color: #f8f9fa;
+    background-color: darkred;
     color: black;
     margin: 0.5em 1em 0.5em 1em;
     padding: 0.2em;
@@ -87,4 +87,7 @@ td,th{
     clear: right;
     font-size: 16px;
     line-height: 2.5em;
+}
+.about-table th {
+    padding: 5px;
 }
