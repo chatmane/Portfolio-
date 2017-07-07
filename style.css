@@ -99,14 +99,17 @@ td,th{
     height:600px;
 }
 h5{
-    font-size:30px;
+    font-size:35px;
     font-family: 'Times New Roman', Times, serif;
+    color: darkred
 }
 h6{
-    font-size:30px;
+    font-size:35px;
     font-family: 'Times New Roman', Times, serif;
+    color:darkred
 }
 h7{
-    font-size:30px;
+    font-size:35px;
     font-family: 'Times New Roman', Times, serif;
+    color: darkred
 }
