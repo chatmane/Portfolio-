@@ -55,7 +55,7 @@ h3{
 }
 .index-page{
     border: 10px solid darkred;
-    min-height: 100vh;
+    min-height: 175vh;
 }
 .projects-page{
     border: 10px solid darkred;
@@ -90,4 +90,11 @@ td,th{
 }
 .about-table th {
     padding: 5px;
+}
+.carousel{
+    width:600px;
+    margin:0 auto;
+}
+.carousel-inner{
+    height:600px;
 }
