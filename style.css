@@ -98,3 +98,11 @@ td,th{
 .carousel-inner{
     height:600px;
 }
+h5{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h6{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+}
