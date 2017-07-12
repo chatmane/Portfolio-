@@ -63,7 +63,7 @@ h3{
 }
 .contact-page{
     border: 10px solid darkred;
-    min-height: 100vh;
+    min-height: 115vh;
 }
 .about-table{
     border:2px solid black;
@@ -122,4 +122,7 @@ h7{
 }
 .info{
    margin-left: 20px; 
+}
+.about-content{
+    margin-left: 10px;
 }
