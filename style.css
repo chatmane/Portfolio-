@@ -55,7 +55,7 @@ h3{
 }
 .index-page{
     border: 10px solid darkred;
-    min-height: 175vh;
+    min-height: 135vh;
 }
 .projects-page{
     border: 10px solid darkred;
@@ -119,6 +119,7 @@ h7{
 
 .contactForm{
     margin-left: 20px;
+    width: 300px;
 }
 .info{
    margin-left: 20px; 
