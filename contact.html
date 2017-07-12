@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-       <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class= "contact-page">
+
+<body class="contact-page">
     <div class="topnav row" id="myTopnav">
         <a href="index.html" class="col-xs-3">Home</a>
         <a href="about.html" class="col-xs-3">About</a>
-        <a href="projects.html"  class="col-xs-3">Projects</a>
-        <a href="contact.html"  class="col-xs-3">Contact</a>
-    </div>  
-</head>
-<body class="contact-body" >
-<h7>Contact:</h7>
-<h3>314-574-2284</h3>
-<h3>chatmane10@gmail.com</h3>
+        <a href="projects.html" class="col-xs-3">Projects</a>
+        <a href="contact.html" class="col-xs-3">Contact</a>
+    </div>
+    </head>
+
+    <body class="contact-body">
+        <div class="info">
+            <h7>Contact Me:</h7>
+            <h3>314-574-2284</h3>
+            <h3>chatmane10@gmail.com</h3>
+        </div>
+        <form class="contactForm" name="contactForm" onsubmit="submitcontactform()">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input type="name" class="form-control" id="exampleInputPassword1" placeholder="Name">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" id="exampleInputFile">
+                <p class="help-block">Example block-level help text here.</p>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Check me out
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
 
 
-    
-</body>
+    </body>
+
 </html>
