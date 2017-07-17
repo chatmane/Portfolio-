@@ -7,8 +7,8 @@ function submitcontactform(){
     }
 }
 
-$(document).ready(function() {  
-)};
+$(document).ready(function(){  
+});
 
 function submitcontactform(){
     event.preventDefault();
