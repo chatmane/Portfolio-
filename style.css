@@ -127,3 +127,12 @@ h7{
 .about-content{
     margin-left: 10px;
 }
+
+.jquery-badge h2 {
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+.jquery-badge:hover h2 {
+    opacity: 1;
+}
