@@ -11,9 +11,12 @@ $(document).ready(function () {
     });
 
     $('.jquery-badge').on('mouseenter', projectHover);
+
+    $(".contactForm").on('submit', submitContactForm);
 });
 
-function submitcontactform() {
+function submitContactForm() {
+    event.preventDefault();
     var x = document.forms["contactForm"]["email"].value;
     if (x == "") {
         alert("email must be filled out");
