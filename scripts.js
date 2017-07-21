@@ -6,9 +6,11 @@ var projects = [
 
 $(document).ready(function () {
     $.each(projects, function (index, project) {
-        console.jpg(projects);
+        console.log(projects);
         $('projects').append('')
     });
+
+    $('.jquery-badge').on('mouseenter', projectHover);
 });
 
 function submitcontactform() {
@@ -18,4 +20,10 @@ function submitcontactform() {
     } else {
         alert('Thank You For Submitting');
     }
+}
+
+
+function projectHover() {
+    console.log('wee');
+    $(this).addClass('hover');
 }

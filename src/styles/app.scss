@@ -128,15 +128,25 @@ h7{
     margin-left: 10px;
 }
 
-.jquery-badge h2 {
-    opacity: 0;
-    transition: all ease 1s;
-}
-
-.jquery-badge:hover h2 {
-    opacity: 1;
+.jquery-badge{
+    h2 {
+        opacity: 0;
+        transition: all ease 1s;
+    }
+    &.hover {
+        h2 {
+            opacity: 1;
+        }
+    }
 }
 
 .logo {
     border-radius: 100%;
+    float: left;
+    transition: all ease 1s;
+    margin: 15px;
+}
+
+.logo-after {
+    border-radius: 0;
 }
