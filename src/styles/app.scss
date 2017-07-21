@@ -142,9 +142,14 @@ h7{
 
 .logo {
     border-radius: 100%;
-    float: left;
+    position: absolute;
+    top: 55px;
+    left: 15px;
     transition: all ease 1s;
     margin: 15px;
+    height: 150px;
+    width: 150px;
+    z-index: 9999;
 }
 
 .logo-after {
